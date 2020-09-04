@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Seibel Studios NEW</title>
+        
+        
+    </head>
+    <body>
+        <button id="red">R</button>
+        <button id="blue">G</button>
+        <button id="green">B</button>
+        
+    <script>
+        let body = document.querySelector('body');
+        document.querySelector('#red').onclick = function() {
+            body.style.backgroundColor = 'red';
+        }
+        document.querySelector('#green').onclick = function() {
+            body.style.backgroundColor = 'green';
+        }
+        document.querySelector('#blue').onclick = function() {
+            body.style.backgroundColor = 'blue';
+        }
+            
+    </script>
+        <a href="index.html">Home!</a>
+    </body>
+</html>
